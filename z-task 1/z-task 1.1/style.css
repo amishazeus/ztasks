@@ -1,0 +1,113 @@
+#canvas-container {
+    position: relative;
+  
+    width: 449px;
+     
+     
+     
+    
+    height: 130px;
+
+  
+    
+   
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0; 
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+    background-color: white;
+    
+}
+
+#image {
+    position: absolute;
+    top:4px;
+    left: 4px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover; 
+    z-index: 1; 
+    
+}
+#moshhasnandani {
+    position: absolute;
+    top: 20px; 
+    left: 148px; 
+    z-index: 2;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#teach-message {
+    position: absolute;
+    top: 54px; 
+    left: 144px; 
+    z-index: 2;
+    font-family: 'Roboto',sans-serif;
+   
+    font-size: 20px; 
+}
+
+#comment-image {
+    position: absolute;
+    top: 98px; 
+    left: 148px; 
+    z-index: 2; 
+    width:20px;
+    height: 20px;
+}
+
+#comment-number{
+    position:absolute;
+    top:98px;
+    left:182px;
+    z-index: 2;
+    font-family: 'Roboto ',sans-serif;
+    font-size: 15px;
+    font-weight: Medium;
+    color: #858991;
+   
+}
+
+#retweet-image {
+    position: absolute;
+    top: 98px; 
+    left: 221px; 
+    z-index: 2; 
+}
+
+#retweet-number{
+    position:absolute;
+    top:98px;
+    left:255px;
+    z-index: 2;
+    font-family: 'Roboto ',sans-serif;
+    font-size: 15px;
+    font-weight: Medium;
+    color: #858991;
+}
+
+#like-image {
+    position: absolute;
+    top: 98px; 
+    left: 294px; 
+    z-index: 2; 
+}
+
+#like-number{
+    position:absolute;
+    top:98px;
+    left:328px;
+    z-index: 2;
+    font-family: 'Roboto ',sans-serif;
+    font-size: 15px;
+    font-weight: Medium;
+    color: #858991;
+}
